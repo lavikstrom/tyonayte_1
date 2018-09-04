@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+    <table width="500" cellspacing="0" cellpadding="0">
+        <tr>
+            <td height="24" colspan="3">Paikka: @ViewData["Paikka"]</td>
+        </tr>
+        <tr>
+            <td height="28" colspan="3">Rahaa: @ViewData["Rahaa"]</td>
+        </tr>
+        <tr>
+            <td width="87">&nbsp;</td>
+            <td width="332">&nbsp;</td>
+            <td width="79">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td align="center">
+                <table width="332" height="80" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="108" height="40">&nbsp;</td>
+                        <td width="112" height="40" align="center"><img src="~/images/duuni1.gif" width="43" height="43"></td>
+                        <td width="110" height="40">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td height="40" align="center"><img src="~/images/baari1.gif" width="43" height="43"></td>
+                        <td height="40" align="center"><img src="~/images/koti.gif" width="43" height="43"></td>
+                        <td height="40" align="center"><img src="~/images/kauppa1.gif" width="43" height="43"></td>
+                    </tr>
+                </table>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <table width="332" height="80" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="109" height="40">&nbsp;</td>
+                        <td width="111" height="40" align="center"><a href=@ViewData["YlosString"]>Yl&ouml;s</a></td>
+                        <td width="110" height="40">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td height="40" align="center"><a href=@ViewData["VasemmalleString"]>Vasemmalle</a></td>
+                        <td height="40" align="center"><a href=@ViewData["AlasString"]>Alas</a></td>
+                        <td height="40" align="center"><a href=@ViewData["OikealleString"]>Oikealle</a></td>
+                    </tr>
+                </table>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>
